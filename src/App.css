@@ -14,13 +14,16 @@ h2,h4 {
   color: #d0d0d5;
   border-radius: 6px;
 }
-.joke_button{
+.joke_button {
+  display: flex;
+  justify-content: end;
+}
+.joke_button button{
   background-color: #0a0a23;
   color: #d0d0d5;
   border: 0;
   padding: 4px 8px;
   border-radius: 6px;
-  margin-left: 70%;
 }
 
 /* --dark-blue: #002ead;

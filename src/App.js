@@ -19,7 +19,9 @@ function App() {
       <h2>Random Joke Generator</h2>
       <div className="joke_area">
         {joke && <h4>{joke.joke}</h4>}
-        <button className='joke_button' onClick={() => getJoke()}>Get a New Joke</button>
+        <div className='joke_button'>
+          <button onClick={() => getJoke()}>Get a New Joke</button>
+        </div>
       </div>
     </div>
   );
