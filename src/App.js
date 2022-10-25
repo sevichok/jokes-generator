@@ -10,8 +10,8 @@ function App() {
         headers: { Accept: "application/json" },
       }
     )
-    const jokeObj = await jokeData.json()
-    setJoke(jokeObj)
+      .then(response => response.json())
+    setJoke(jokeData)
   };
 
   return (

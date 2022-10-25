@@ -24,6 +24,7 @@ h2,h4 {
   border: 0;
   padding: 4px 8px;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 /* --dark-blue: #002ead;
